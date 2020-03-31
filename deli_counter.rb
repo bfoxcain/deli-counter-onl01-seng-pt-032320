@@ -21,7 +21,7 @@ def take_a_number(line, new_person)
 end
 
 def now_serving(line)
-  if deli.empty?
+  if line.empty?
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line[0]}."
