@@ -1,4 +1,6 @@
 # Write your code here.
+
+
 def line(array)
   if array.length >=1
     nuarray=[]
@@ -12,5 +14,3 @@ def line(array)
     puts "The line is currently empty."
   end
 end
-
-line(katz_deli)
