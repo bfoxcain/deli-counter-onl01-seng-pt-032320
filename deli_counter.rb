@@ -13,4 +13,4 @@ def line(array)
   end
 end
 
-line()
+line(katz_deli)
